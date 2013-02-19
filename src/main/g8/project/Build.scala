@@ -35,7 +35,7 @@ object $name;format="Camel"$Build extends Build {
 
   import BuildSettings._
 
-  lazy val $name;format="normalize"$ = Project(
+  lazy val $name;format="camel"$ = Project(
     id = buildName,
     base = file("."),
     settings = buildSettings 
