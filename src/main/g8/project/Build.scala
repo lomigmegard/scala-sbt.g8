@@ -4,7 +4,7 @@ import Keys._
 object BuildSettings {
 
   val buildName         = "$name;format="normalize"$"
-  val buildOrganization = "$package$"
+  val buildOrganization = "$organization$"
   val buildVersion      = "$version$"
   val buildScalaVersion = "2.10.0"
 

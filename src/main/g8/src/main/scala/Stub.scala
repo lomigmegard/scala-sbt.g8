@@ -1,5 +1,5 @@
-package $package$
+package $organization$
 
 object Stub extends App {
-  println("$description$")
+  println("$name$")
 }
