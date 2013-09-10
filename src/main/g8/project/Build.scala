@@ -6,7 +6,7 @@ object BuildSettings {
   val buildName         = "$name;format="normalize"$"
   val buildOrganization = "$organization$"
   val buildVersion      = "$version$"
-  val buildScalaVersion = "2.10.0"
+  val buildScalaVersion = "2.10.2"
 
   val buildSettings = Defaults.defaultSettings ++ Seq (
       name         := buildName,
@@ -20,6 +20,9 @@ object BuildSettings {
       // ScalaTest
       //libraryDependencies += "org.scalatest" % "scalatest_2.10" % "2.0.M5b" % "test",
       
+      // Akka
+      //libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.2.1",
+
       scalacOptions ++= Seq(
         "-feature",                      // Enable language feature warnings
         "-deprecation",                  // Enable detailed deprecation warnings 
